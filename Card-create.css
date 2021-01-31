@@ -1,0 +1,43 @@
+h1 {
+    background-color: rgb(209, 209, 209);
+    color: rgb(73, 50, 205);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color:blue;
+}
+
+p.Welcom {
+    font-weight: bolder;
+    color:chocolate;
+}
+
+.NewId {
+    color: rgb(255, 145, 0);
+    margin: 12px;
+    }
+
+input {
+    border: black 1px solid;
+    margin: 12px;
+    position:relative;
+}
+
+input::before{
+     content:"ID";
+     position:relative;
+}
+
+a {
+    margin: 12px;
+}
+
+.Login {
+    color:blue;  
+    font-weight:bolder;
+}
