@@ -1,0 +1,12 @@
+h1 {
+color:white;
+text-align:center;
+padding:50px;
+font-size:30px;
+background-color:#C8D2E3;
+background-image: url("ログイン画面背景.png");
+}
+
+h2 {
+font-size:20px;
+}
