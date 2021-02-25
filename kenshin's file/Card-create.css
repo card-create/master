@@ -1,0 +1,78 @@
+h1 {
+  background-color: rgb(255, 255, 255, 0.5);
+  color: rgb(73, 50, 205);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  color:blue;
+}
+
+.logo {
+  width: 20px;
+}
+
+p.Welcom {
+  font-weight: bolder;
+  color:chocolate;
+}
+
+.NewId {
+  color: rgb(255, 145, 0);
+  margin: 12px;
+  }
+
+input {
+  border: black 1px solid;
+  margin: 12px;
+  position:relative;
+}
+
+input::before{
+   content:"ID";
+   position:relative;
+}
+
+a {
+  margin: 12px;
+}
+
+.Login {
+  color:blue;  
+  font-weight:bolder;
+}
+
+header {
+background-color:darkred;
+opacity:0.7;
+}
+
+.fa-parking {
+color:white;
+margin:5px;
+font-size:30px;
+}
+
+main{
+background-image: url("https://cdn.gamer-network.net/2018/usgamer/pokemon-trading-cards_older.jpg");
+background-size: cover;
+background-color: rgba(255, 255, 255, 0.7);
+background-blend-mode:lighten;
+height:500px;
+}
+
+footer {
+background-color:gray;
+color:white;
+text-align:right;
+margin:auto;
+}
+
+
+.btn-login:hover {
+transform: scale(1.2, 1.2);
+}
